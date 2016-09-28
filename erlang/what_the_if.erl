@@ -14,10 +14,9 @@ heh_fine() ->
 	end.
 
 oh_god(N) ->
-if N =:= 2 -> might_succeed;
-	true -> always_does  %% 'if' e 'else' 
-end.
-
+	if N =:= 2 -> might_succeed;
+		true -> always_does  %% 'if' e 'else' 
+	end.
 
 help_me(Animal) ->
 	Talk = if Animal == cat  -> "meow";
