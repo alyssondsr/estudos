@@ -1,5 +1,6 @@
 -module(records).
 -compile(export_all).
+-include("records.hrl").
 -record(robot, {name,
 		type=industrial,
 		hobbies,
@@ -16,7 +17,7 @@ first_robot() ->
 car_factory(CorpName, Details) ->
 	#robot{name=CorpName, hobbies="building cars", details = Details}.
  
-%% use pattern matching to filter
+%% Usa o padrão do registro para filtrar a resporta
 admin_panel(#user{name=Name, group=admin}) ->
 	Name ++ " is allowed!";
 admin_panel(#user{name=Name}) ->
@@ -34,3 +35,5 @@ repairman(Rob) ->
 	Details = Rob#robot.details,
 	NewRob = Rob#robot{details=["Repaired by repairman"|Details]},
 	{repaired, NewRob}.
+% registro descrito em records.hrl
+included() -> #included{some_field="Some value"}.
