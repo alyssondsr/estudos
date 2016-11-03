@@ -34,7 +34,7 @@ init(Server, EventName, DateTime) ->
 %% on timeouts.
 loop(S = #state{server=Server, to_go=[T|Next]}) ->
     receive
-        {Server, Ref, cancel} ->
+        {Server, Ref, cancel} -> %Pid é o remetente e Ref é um identificador de mensagem única para ajudar a saber a resposta que veio de quem.
             Server ! {Ref, ok}
     after T*1000 ->
         if Next =:= [] ->
