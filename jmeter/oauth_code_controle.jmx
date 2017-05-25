@@ -39,12 +39,12 @@
           </elementProp>
           <elementProp name="redirect_url" elementType="Argument">
             <stringProp name="Argument.name">redirect_url</stringProp>
-            <stringProp name="Argument.value">https://127.0.0.1:2302/callback</stringProp>
+            <stringProp name="Argument.value">https://164.41.120.42:2302/callback</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="state" elementType="Argument">
             <stringProp name="Argument.name">state</stringProp>
-            <stringProp name="Argument.value">QWqwerlsdkjfhjklsrweo</stringProp>
+            <stringProp name="Argument.value">CPD/SOP</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -53,12 +53,12 @@
     </TestPlan>
     <hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="oauth_get_access_token_thread_group" enabled="true">
-        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <stringProp name="ThreadGroup.on_sample_error">startnextloop</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">100</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">2</stringProp>
+        <stringProp name="ThreadGroup.num_threads">10</stringProp>
         <stringProp name="ThreadGroup.ramp_time">10</stringProp>
         <longProp name="ThreadGroup.start_time">1352451199000</longProp>
         <longProp name="ThreadGroup.end_time">1352451199000</longProp>
@@ -78,7 +78,7 @@
               <stringProp name="-1013136619">accesstoken</stringProp>
             </collectionProp>
             <collectionProp name="UserParameters.thread_values">
-              <collectionProp name="2059795210">
+              <collectionProp name="-1238695700">
                 <stringProp name="-139870448">YWx5c3NvbmRzcjpmRXFOQ2NvM1lxOWg1WlVnbEQzQ1pKVDRsQnM9</stringProp>
                 <stringProp name="-836031718">user1 </stringProp>
               </collectionProp>
@@ -257,6 +257,15 @@
                 <stringProp name="-833810928">expires_in</stringProp>
               </collectionProp>
               <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">2</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Assertion_State" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="1636525456">state=CPD/SOP</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.test_field">Assertion.sample_label</stringProp>
               <boolProp name="Assertion.assume_success">false</boolProp>
               <intProp name="Assertion.test_type">2</intProp>
             </ResponseAssertion>
