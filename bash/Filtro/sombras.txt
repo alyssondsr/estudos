@@ -1,2 +1,51 @@
-- Rule 'Rule 1104' shadows rule 'Libera_49.56_Internet'
-- Rule 'Rule 726' shadows rule 'Rule 1071'
+VPN_IQ_SantosDumond
+Rule 1123
+10.100.252.2_acessoWeb
+controladoras_TFTP
+Rule 648
+205.54.139.40_67.90_TCP27005
+SSH_FUP_PFSense_FUB_GPWeb
+Rule 1372-1-1-1-2
+liberacao_FE_migracao
+145.115_fisica
+106.247_103.82_UDP13300
+Rule 3744
+videoconf-1
+acesso_bce-1
+HA_proxy
+WEB_FUP_PFSense_FUP_GPWeb
+UFRN_SIG_UnB_BD_Homologa
+Rule 647
+102.72_102.147_TCP5432
+Regra BCE
+SSH_JBOSS_UFRN_Desenv
+Internet__164.41.203.106_29
+Rule 367_1
+Rule 4127
+VPN_IQ_SantosDumond-1
+Rule 3860
+liberacao_email_LSIE
+regra_citsmart_homologacao
+Rule 1033
+DWH_BD_SQL
+Bloqueio_5.101.64.0
+acesso_proxy_capes
+Rule 3322
+Acesso_Pisac
+SSH_Fisica_UnB
+106.20_102.160_389TCP
+106.24_107.140_1433_TCP
+Rule 1239
+Rule 3755
+Rule 1130
+HTTP_CIC_Servidor
+Rule 347
+FCE_158.100_Porta_5280
+WEB_JBOSS_UFRN_Desenv
+Rule 3740-1
+109.69_119.0_any
+Rule 1032
+Simpress_11
+Prefeitura_ServerGT
+Rule 3657-2
+Rule 1142_1
