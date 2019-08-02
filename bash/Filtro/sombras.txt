@@ -1,51 +1,92 @@
-VPN_IQ_SantosDumond
-Rule 1123
-10.100.252.2_acessoWeb
-controladoras_TFTP
-Rule 648
-205.54.139.40_67.90_TCP27005
+Salt_Servidores
+Libera_Pentaho_CPD
+Entrada_111.63_109.9_13508
+Storage_Isilon
+Sis_Saida_18000_18001
+109.32_TCP_13508
+Pergamun_PUCPR
+110.192_SSH
+101.7__108.66_13508TCP
+liberacao_realy_ICC
+89.192_26_Internet
+109.24_HTTPS
+Libera 80 e 443 Escolinha
+Regra ssh-1
+121.27_102.147_TCP5432
+wireless_voip
+sismologia_cameras
+ssh_PRC_SICOS
+storages_NTP-1
+WEB_FUP_PFSense_FUP_GPWeb
+Cespe_106.30_80_2301
+DoctorVetcloud
+Cloud_Maquete_Min_Trabalho
+ssh_FGA_109.99
+liberacao_CDTC
+109.110_211.5_LDAP
+RodrigoSSI_SMB_110.85
+JBOSS_UFRN_Treinamento
+Libera_108.88
+desenv_servicos-1
+Acesso_SSH_102.234
+Internet_109.9_5432_TCP
+Pergamun_PUCPR-1
+k8s_mysql
+53.0_Internet_TCP7070
+VPN_SEI3
+201.62_SRV_Historia
+102.200_web
+118.42_109.110_111_TCP389
+Acesso_5432_109.12
+acesso_sistemas_SSI
+acesso_BD_console-1
+troca_senha_cpd_ldap
+sala_cofre_acesso_biometrico
+Entrada_Desenv_SRV_80
+sql_portal
+dc.unb.br
+SEI_portal
+110.30_WEB
+205.209_Internet_UDP_1194
+loadbalance_kubernetes
+Regra SIG- Pedido do Karam
+UFRN_SIG_UnB_Sites-1
+109.111_CIC_https
+Lab_FGA_Saida
+RedUnB__101.39_8181_9000_TCP
+JBOSS_UFRN_Desenvolvimento
+UFRN_SIG_UnB_Sites-1_Homologa
+103.92_acesso_SSH
+liberacao_mailhub
+SSH_serverBD
+110.223_RDP
+ldap_107.22
+SSH_CIC
+103.33_108.67_80TCP
+cic_professores_ipage
+Storage_Isilon_CIFS_SMB
+loadbalance_graylog
+Entrada_106.53_22
+VPN_Fisica_UnB
+Regra acesso servidor
 SSH_FUP_PFSense_FUB_GPWeb
-Rule 1372-1-1-1-2
-liberacao_FE_migracao
+110.37_SSH
+UFRN_SIG_UnB_Conf
+Internet_RedUnB_109.7
+Storage_Isilon_DNS
+Regra RDP - 3389 - VEEAM
+Entrada_SSI_107.140_3389
+102.72_102.147_TCP5432
+rule_desenvolvimento_103
+109.35_acesso_RPC_111
+101.174_102.118_25
 145.115_fisica
 106.247_103.82_UDP13300
-Rule 3744
-videoconf-1
-acesso_bce-1
-HA_proxy
-WEB_FUP_PFSense_FUP_GPWeb
-UFRN_SIG_UnB_BD_Homologa
-Rule 647
-102.72_102.147_TCP5432
-Regra BCE
-SSH_JBOSS_UFRN_Desenv
+8.18_109.16_13508TCP
 Internet__164.41.203.106_29
-Rule 367_1
-Rule 4127
-VPN_IQ_SantosDumond-1
-Rule 3860
-liberacao_email_LSIE
-regra_citsmart_homologacao
-Rule 1033
-DWH_BD_SQL
-Bloqueio_5.101.64.0
-acesso_proxy_capes
-Rule 3322
-Acesso_Pisac
-SSH_Fisica_UnB
-106.20_102.160_389TCP
-106.24_107.140_1433_TCP
-Rule 1239
-Rule 3755
-Rule 1130
-HTTP_CIC_Servidor
-Rule 347
-FCE_158.100_Porta_5280
-WEB_JBOSS_UFRN_Desenv
-Rule 3740-1
-109.69_119.0_any
-Rule 1032
-Simpress_11
+UFRN_SIG_UnB_BD
+UFRN_SIG_UnB_BD_Homologa
+SSH_CIC-1
+VCenter_internet_80_TCP
+205.54.139.40_67.90_TCP27005
 Prefeitura_ServerGT
-Rule 3657-2
-Rule 1142_1
